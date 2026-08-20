@@ -2,6 +2,8 @@
 
 Productos de seguridad y OSINT sobre infraestructura propia.
 
+Equipo: [eva420](https://github.com/eva420), con un equipo de IA local como soporte de desarrollo.
+
 En producción:
 - **TRACEZ** — SaaS de OSINT/GEOINT (Cloudflare Workers + D1)
 - **GRIMZ** — plataforma de operación autorizada
