@@ -1,4 +1,4 @@
-<img src="banner.svg" alt="NO-DO.DEV — TRACEZ investiga. GRIMZ opera. Un solo núcleo." width="880">
+<img src="banner.svg?v=2" alt="NO-DO.DEV — TRACEZ investiga. GRIMZ opera. Un solo núcleo." width="880">
 
 ### La infraestructura común detrás de la investigación OSINT y las operaciones de pentesting autorizadas.
 
