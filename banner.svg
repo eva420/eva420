@@ -4,9 +4,13 @@
     <style>
       .mono { font-family: ui-monospace, "SFMono-Regular", "JetBrains Mono", Menlo, Consolas, monospace; }
     </style>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0H0V22" fill="none" stroke="#4a4436" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
   </defs>
 
   <rect width="880" height="208" rx="10" fill="#0d0c0a"/>
+  <rect width="880" height="208" rx="10" fill="url(#grid)"/>
   <rect x=".5" y=".5" width="879" height="207" rx="9.5" fill="none" stroke="#4a4436" stroke-opacity=".55"/>
 
   <!-- brand mark: TRACEZ + GRIMZ convergiendo en el núcleo -->
@@ -44,4 +48,7 @@
     <text x="694" y="153" fill="#ff5a36" font-size="12.5" font-weight="700" letter-spacing=".6">OPERA</text>
     <circle cx="838" cy="148" r="5.5" fill="#ff5a36"/>
   </g>
+
+  <!-- firma discreta: producto en producción -->
+  <text class="mono" x="186" y="180" fill="#4a4436" font-size="9.5" letter-spacing="2.2">EN PRODUCCIÓN · INFRAESTRUCTURA PROPIA · EU</text>
 </svg>

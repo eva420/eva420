@@ -1,8 +1,13 @@
-<img src="banner.svg?v=2" alt="NO-DO.DEV — TRACEZ investiga. GRIMZ opera. Un solo núcleo." width="880">
+<img src="banner.svg?v=3" alt="NO-DO.DEV — TRACEZ investiga. GRIMZ opera. Un solo núcleo." width="880">
 
 ### La infraestructura común detrás de la investigación OSINT y las operaciones de pentesting autorizadas.
 
 Somos **NO-DO**. Diseñamos, desplegamos y operamos [**no-do.dev**](https://no-do.dev): producto propio, en producción, sobre infraestructura propia. Sin intermediarios y sin datos de terceros en venta.
+
+[![no-do.dev](https://img.shields.io/website?url=https%3A%2F%2Fno-do.dev&style=flat-square&label=no-do.dev&labelColor=1b1a17&up_color=4fd1c5&up_message=en%20l%C3%ADnea&down_color=ff5a36&down_message=ca%C3%ADdo)](https://no-do.dev)
+[![TRACEZ](https://img.shields.io/website?url=https%3A%2F%2Ftracez.no-do.dev&style=flat-square&label=TRACEZ&labelColor=1b1a17&up_color=4fd1c5&up_message=en%20l%C3%ADnea&down_color=ff5a36&down_message=ca%C3%ADdo)](https://tracez.no-do.dev)
+[![GRIMZ](https://img.shields.io/website?url=https%3A%2F%2Fgrimz.no-do.dev&style=flat-square&label=GRIMZ&labelColor=1b1a17&up_color=4fd1c5&up_message=en%20l%C3%ADnea&down_color=ff5a36&down_message=ca%C3%ADdo)](https://grimz.no-do.dev)
+![DEEPWIRE](https://img.shields.io/badge/DEEPWIRE-en%20construcci%C3%B3n-8a8272?style=flat-square&labelColor=1b1a17)
 
 ---
 
