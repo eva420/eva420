@@ -1,37 +1,37 @@
-<img src="banner.svg?v=3" alt="NO-DO.DEV — TRACEZ investiga. GRIMZ opera. Un solo núcleo." width="880">
+<img src="banner.svg?v=4" alt="NO-DO.DEV — TRACEZ investigates. GRIMZ operates. One core." width="880">
 
-### La infraestructura común detrás de la investigación OSINT y las operaciones de pentesting autorizadas.
+### The shared infrastructure behind open-source intelligence and authorized pentesting.
 
-Somos **NO-DO**. Diseñamos, desplegamos y operamos [**no-do.dev**](https://no-do.dev): producto propio, en producción, sobre infraestructura propia. Sin intermediarios y sin datos de terceros en venta.
+We are **NO-DO**. We design, deploy and operate [**no-do.dev**](https://no-do.dev): our own product, in production, on our own infrastructure. No middlemen, no third-party data for sale.
 
-[![no-do.dev](https://img.shields.io/website?url=https%3A%2F%2Fno-do.dev&style=flat-square&label=no-do.dev&labelColor=1b1a17&up_color=4fd1c5&up_message=en%20l%C3%ADnea&down_color=ff5a36&down_message=ca%C3%ADdo)](https://no-do.dev)
-[![TRACEZ](https://img.shields.io/website?url=https%3A%2F%2Ftracez.no-do.dev&style=flat-square&label=TRACEZ&labelColor=1b1a17&up_color=4fd1c5&up_message=en%20l%C3%ADnea&down_color=ff5a36&down_message=ca%C3%ADdo)](https://tracez.no-do.dev)
-[![GRIMZ](https://img.shields.io/website?url=https%3A%2F%2Fgrimz.no-do.dev&style=flat-square&label=GRIMZ&labelColor=1b1a17&up_color=4fd1c5&up_message=en%20l%C3%ADnea&down_color=ff5a36&down_message=ca%C3%ADdo)](https://grimz.no-do.dev)
-![DEEPWIRE](https://img.shields.io/badge/DEEPWIRE-en%20construcci%C3%B3n-8a8272?style=flat-square&labelColor=1b1a17)
+[![no-do.dev](https://img.shields.io/website?url=https%3A%2F%2Fno-do.dev&style=flat-square&label=no-do.dev&labelColor=1b1a17&up_color=4fd1c5&up_message=online&down_color=ff5a36&down_message=down)](https://no-do.dev)
+[![TRACEZ](https://img.shields.io/website?url=https%3A%2F%2Ftracez.no-do.dev&style=flat-square&label=TRACEZ&labelColor=1b1a17&up_color=4fd1c5&up_message=online&down_color=ff5a36&down_message=down)](https://tracez.no-do.dev)
+[![GRIMZ](https://img.shields.io/website?url=https%3A%2F%2Fgrimz.no-do.dev&style=flat-square&label=GRIMZ&labelColor=1b1a17&up_color=4fd1c5&up_message=online&down_color=ff5a36&down_message=down)](https://grimz.no-do.dev)
+![DEEPWIRE](https://img.shields.io/badge/DEEPWIRE-in%20progress-8a8272?style=flat-square&labelColor=1b1a17)
 
 ---
 
-## Plataformas
+## Platforms
 
-| Consola | Qué resuelve | Estado |
+| Console | What it solves | Status |
 | :--- | :--- | :--- |
-| **[TRACEZ](https://tracez.no-do.dev)**<br>`Fase 01 · Investigación` | Graph analytics y GEOINT multi-fuente en un solo workspace: entidades, transforms automatizados, geolocalización, timeline y panel en vivo (vuelos, sismos, clima, ISS) con imagen satelital NASA GIBS. | **Beta pública** |
-| **[GRIMZ](https://grimz.no-do.dev)**<br>`Fase 03 · Operación` | Superficie de ataque en tiempo real, escaneo `nmap` integrado, exploits priorizados por CVE e integración con Metasploit. Sin cambiar de pantalla. | **Enterprise** |
-| **DEEPWIRE**<br>`Fase 02 · Enlace` | Une investigación y operación en una única consola, conservando la autorización explícita por objetivo y la trazabilidad completa. | **En construcción** |
+| **[TRACEZ](https://tracez.no-do.dev)**<br>`Phase 01 · Investigation` | Multi-source graph analytics and GEOINT in a single workspace: entities, automated transforms, geolocation, timeline and a live panel (flights, earthquakes, weather, ISS) with NASA GIBS satellite imagery. | **Public beta** |
+| **[GRIMZ](https://grimz.no-do.dev)**<br>`Phase 03 · Operation` | Real-time attack surface, integrated `nmap` scanning, CVE-prioritized exploits and Metasploit integration. Without switching screens. | **Enterprise** |
+| **DEEPWIRE**<br>`Phase 02 · Link` | Brings investigation and operation into a single console, preserving explicit per-target authorization and full traceability. | **In progress** |
 
-## Autorización explícita, por diseño
+## Authorization by design
 
-Entre investigar y operar hay un paso que **no automatizamos**: el operador fija el alcance, activo por activo. Es explícito y humano por diseño, nunca automático. GRIMZ actúa únicamente sobre ese alcance autorizado y registra la evidencia de cada acción de punta a punta.
+Between investigating and operating there is a step we **do not automate**: the operator sets the scope, asset by asset. It is explicit and human by design, never automatic. GRIMZ acts only within that authorized scope and records the evidence of every action, end to end.
 
-[Marco ético](https://no-do.dev/etica/) · [Términos](https://no-do.dev/terminos/) · [Privacidad](https://no-do.dev/privacidad/) · [Estado del servicio](https://no-do.dev/status/)
+[Code of ethics](https://no-do.dev/etica/) · [Terms](https://no-do.dev/terminos/) · [Privacy](https://no-do.dev/privacidad/) · [Service status](https://no-do.dev/status/)
 
-## Quién trabaja con esto
+## Who works with this
 
-**Con TRACEZ** — periodistas de investigación reconstruyendo un caso, analistas de riesgo y OSINT independientes, equipos legales que necesitan trazabilidad de fuentes.
+**With TRACEZ** — investigative journalists reconstructing a case, independent risk and OSINT analysts, legal teams that need source traceability.
 
-**Con GRIMZ** — pentesters autorizados que priorizan por CVE en vez de a ciegas, equipos red team con alcance definido y auditable, operadores de Metasploit que quieren una vista unificada.
+**With GRIMZ** — authorized pentesters who prioritize by CVE instead of working blind, red teams with a defined and auditable scope, Metasploit operators who want a unified view.
 
-## Base técnica
+## Under the hood
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-1b1a17?style=flat-square&logo=typescript&logoColor=4fd1c5)
 ![Python](https://img.shields.io/badge/Python-1b1a17?style=flat-square&logo=python&logoColor=4fd1c5)
@@ -39,18 +39,18 @@ Entre investigar y operar hay un paso que **no automatizamos**: el operador fija
 ![D1](https://img.shields.io/badge/D1_·_SQLite-1b1a17?style=flat-square&logo=sqlite&logoColor=ff5a36)
 ![Stripe](https://img.shields.io/badge/Stripe-1b1a17?style=flat-square&logo=stripe&logoColor=8a8272)
 
-Cómputo en el edge, almacenamiento y autenticación compartidos entre ambas consolas.
+Edge compute, storage and authentication shared across both consoles.
 
-`< 50 ms` latencia edge · `Zero-trust` en cada request · `0` datos en venta
+`< 50 ms` edge latency · `Zero-trust` on every request · `0` data for sale
 
-## Equipo
+## Team
 
-[**eva420**](https://github.com/eva420) & [**Manuel-1312**](https://github.com/Manuel-1312), con un equipo de IA local como soporte de desarrollo.
+[**eva420**](https://github.com/eva420) & [**Manuel-1312**](https://github.com/Manuel-1312), with a local AI team as development support.
 
-El código de TRACEZ, GRIMZ y DEEPWIRE es propietario y vive en repositorios privados: producto en producción, no demos.
+The code for TRACEZ, GRIMZ and DEEPWIRE is proprietary and lives in private repositories: product in production, not demos.
 
 ---
 
-### ¿Hablamos?
+### Let's talk?
 
-**[→ no-do.dev](https://no-do.dev)** · [Abrir TRACEZ](https://tracez.no-do.dev) · [Abrir GRIMZ](https://grimz.no-do.dev) · [FAQ](https://no-do.dev/faq/) · [Sobre nosotros](https://no-do.dev/sobre-nosotros/)
+**[→ no-do.dev](https://no-do.dev)** · [Open TRACEZ](https://tracez.no-do.dev) · [Open GRIMZ](https://grimz.no-do.dev) · [FAQ](https://no-do.dev/faq/) · [About us](https://no-do.dev/sobre-nosotros/)
