@@ -12,7 +12,7 @@ Somos **NO-DO**. Diseñamos, desplegamos y operamos [**no-do.dev**](https://no-d
 | :--- | :--- | :--- |
 | **[TRACEZ](https://tracez.no-do.dev)**<br>`Fase 01 · Investigación` | Graph analytics y GEOINT multi-fuente en un solo workspace: entidades, transforms automatizados, geolocalización, timeline y panel en vivo (vuelos, sismos, clima, ISS) con imagen satelital NASA GIBS. | **Beta pública** |
 | **[GRIMZ](https://grimz.no-do.dev)**<br>`Fase 03 · Operación` | Superficie de ataque en tiempo real, escaneo `nmap` integrado, exploits priorizados por CVE e integración con Metasploit. Sin cambiar de pantalla. | **Enterprise** |
-| **DEEPWIRE**<br>`Fase 02 · El eslabón` | Une investigación y operación en una única consola, conservando la autorización explícita por objetivo y la trazabilidad completa. | **En construcción** |
+| **DEEPWIRE**<br>`Fase 02 · Enlace` | Une investigación y operación en una única consola, conservando la autorización explícita por objetivo y la trazabilidad completa. | **En construcción** |
 
 ## Autorización explícita, por diseño
 
