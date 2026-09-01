@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 208" width="880" height="208" role="img" aria-label="NO-DO.DEV — TRACEZ investiga. GRIMZ opera. Un solo nucleo.">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4fd1c5" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ff5a36" stop-opacity=".55"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: ui-monospace, "SFMono-Regular", "JetBrains Mono", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect width="880" height="208" rx="10" fill="#0d0c0a"/>
+  <rect x=".5" y=".5" width="879" height="207" rx="9.5" fill="none" stroke="#4a4436" stroke-opacity=".55"/>
+
+  <!-- brand mark: TRACEZ + GRIMZ convergiendo en el nucleo -->
+  <g transform="translate(56 62) scale(1.9)">
+    <path d="M12,14 L22,22 M32,14 L22,22 M22,22 L22,32" stroke="#4a4436" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <circle cx="12" cy="14" r="5" fill="#4fd1c5"/>
+    <circle cx="32" cy="14" r="5" fill="#22d3ee"/>
+    <rect x="16" y="26" width="12" height="12" rx="1.5" transform="rotate(45 22 32)" fill="#0d0c0a" stroke="#ff5a36" stroke-width="2.2"/>
+  </g>
+
+  <g class="mono">
+    <text x="192" y="82" fill="#e9e3d5" font-size="34" font-weight="700" letter-spacing="1.5">NO-DO.DEV</text>
+    <text x="194" y="120" font-size="17" letter-spacing=".3">
+      <tspan fill="#4fd1c5" font-weight="700">TRACEZ</tspan><tspan fill="#8a8272"> investiga. </tspan><tspan fill="#ff5a36" font-weight="700">GRIMZ</tspan><tspan fill="#8a8272"> opera. </tspan><tspan fill="#e9e3d5">Un solo nucleo.</tspan>
+    </text>
+    <text x="194" y="152" fill="#6f6857" font-size="12.5" letter-spacing="1.4">OSINT  ·  GEOINT  ·  PENTESTING AUTORIZADO  ·  CLOUDFLARE EDGE</text>
+  </g>
+
+  <line x1="194" y1="172" x2="824" y2="172" stroke="url(#edge)" stroke-width="1.5"/>
+</svg>
