@@ -1,13 +1,13 @@
-<img src="banner.svg?v=4" alt="NO-DO.DEV — TRACEZ investigates. GRIMZ operates. One core." width="880">
+<img src="banner.svg?v=5" alt="NO-DO.DEV — TRACEZ investigates. GRIMZ operates. One core." width="880">
 
 ### The shared infrastructure behind open-source intelligence and authorized pentesting.
 
 We are **NO-DO**. We design, deploy and operate [**no-do.dev**](https://no-do.dev): our own product, in production, on our own infrastructure. No middlemen, no third-party data for sale.
 
-[![no-do.dev](https://img.shields.io/website?url=https%3A%2F%2Fno-do.dev&style=flat-square&label=no-do.dev&labelColor=1b1a17&up_color=4fd1c5&up_message=online&down_color=ff5a36&down_message=down)](https://no-do.dev)
-[![TRACEZ](https://img.shields.io/website?url=https%3A%2F%2Ftracez.no-do.dev&style=flat-square&label=TRACEZ&labelColor=1b1a17&up_color=4fd1c5&up_message=online&down_color=ff5a36&down_message=down)](https://tracez.no-do.dev)
-[![GRIMZ](https://img.shields.io/website?url=https%3A%2F%2Fgrimz.no-do.dev&style=flat-square&label=GRIMZ&labelColor=1b1a17&up_color=4fd1c5&up_message=online&down_color=ff5a36&down_message=down)](https://grimz.no-do.dev)
-![DEEPWIRE](https://img.shields.io/badge/DEEPWIRE-in%20progress-8a8272?style=flat-square&labelColor=1b1a17)
+[![no-do.dev](https://img.shields.io/website?url=https%3A%2F%2Fno-do.dev&style=flat-square&label=no-do.dev&labelColor=0b0e11&up_color=5fd39a&up_message=online&down_color=ff4d2e&down_message=down)](https://no-do.dev)
+[![TRACEZ](https://img.shields.io/website?url=https%3A%2F%2Ftracez.no-do.dev&style=flat-square&label=TRACEZ&labelColor=0b0e11&up_color=5fd39a&up_message=online&down_color=ff4d2e&down_message=down)](https://tracez.no-do.dev)
+[![GRIMZ](https://img.shields.io/website?url=https%3A%2F%2Fgrimz.no-do.dev&style=flat-square&label=GRIMZ&labelColor=0b0e11&up_color=5fd39a&up_message=online&down_color=ff4d2e&down_message=down)](https://grimz.no-do.dev)
+![DEEPWIRE](https://img.shields.io/badge/DEEPWIRE-in%20progress-7d8a89?style=flat-square&labelColor=0b0e11)
 
 ---
 
@@ -33,11 +33,11 @@ Between investigating and operating there is a step we **do not automate**: the 
 
 ## Under the hood
 
-![TypeScript](https://img.shields.io/badge/TypeScript-1b1a17?style=flat-square&logo=typescript&logoColor=4fd1c5)
-![Python](https://img.shields.io/badge/Python-1b1a17?style=flat-square&logo=python&logoColor=4fd1c5)
-![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-1b1a17?style=flat-square&logo=cloudflare&logoColor=ff5a36)
-![D1](https://img.shields.io/badge/D1_·_SQLite-1b1a17?style=flat-square&logo=sqlite&logoColor=ff5a36)
-![Stripe](https://img.shields.io/badge/Stripe-1b1a17?style=flat-square&logo=stripe&logoColor=8a8272)
+![TypeScript](https://img.shields.io/badge/TypeScript-0b0e11?style=flat-square&logo=typescript&logoColor=e8a33d)
+![Python](https://img.shields.io/badge/Python-0b0e11?style=flat-square&logo=python&logoColor=e8a33d)
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-0b0e11?style=flat-square&logo=cloudflare&logoColor=2ee6d6)
+![D1](https://img.shields.io/badge/D1_·_SQLite-0b0e11?style=flat-square&logo=sqlite&logoColor=2ee6d6)
+![Stripe](https://img.shields.io/badge/Stripe-0b0e11?style=flat-square&logo=stripe&logoColor=7d8a89)
 
 Edge compute, storage and authentication shared across both consoles.
 

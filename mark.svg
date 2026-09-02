@@ -1,13 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44">
-  <!-- Favicon standalone: sin CSS de la pagina, colores fijos (mismos hex
-       que las variables void/tracez/grimz/redact en style.css) en vez de var().
-       Replica el brand mark del header (TRACEZ + GRIMZ combinados en NO-DO)
-       para que la pestaña coincida con la identidad real del sitio. -->
-  <rect width="44" height="44" rx="8" fill="#0d0c0a"/>
-  <path d="M12,14 L22,22 M32,14 L22,22 M22,22 L22,32"
-        stroke="#4a4436" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-  <circle cx="12" cy="14" r="5" fill="#4fd1c5"/>
-  <circle cx="32" cy="14" r="5" fill="#22d3ee"/>
-  <rect x="16" y="26" width="12" height="12" rx="1.5" transform="rotate(45 22 32)"
-        fill="#0d0c0a" stroke="#ff5a36" stroke-width="2.2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Mark standalone: copia exacta de hub/favicon.svg (no-do.dev) para que
+       el perfil coincida con la identidad real del sitio. Colores en hex fijo
+       (los mismos que las variables bg / ink de style.css). Replica la marca del header:
+       nodo hueco -> arista -> nodo resuelto, el enlace que da nombre a NO-DO. -->
+  <rect width="32" height="32" rx="6" fill="#07090b"/>
+  <path d="M11.2 20.8 L20.8 11.2" stroke="#eef2f0" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <circle cx="7" cy="25" r="4.2" fill="none" stroke="#eef2f0" stroke-width="2.4"/>
+  <circle cx="25" cy="7" r="4.2" fill="#eef2f0"/>
 </svg>
