@@ -23,7 +23,7 @@ We are **NO-DO**. We design, deploy and operate [**no-do.dev**](https://no-do.de
 
 Between investigating and operating there is a step we **do not automate**: the operator sets the scope, asset by asset. It is explicit and human by design, never automatic. GRIMZ acts only within that authorized scope and records the evidence of every action, end to end.
 
-[Code of ethics](https://no-do.dev/etica/) · [Terms](https://no-do.dev/terminos/) · [Privacy](https://no-do.dev/privacidad/) · [Service status](https://no-do.dev/status/)
+[Code of ethics](https://no-do.dev/en/ethics/) · [Terms](https://no-do.dev/en/terms/) · [Privacy](https://no-do.dev/en/privacy/) · [Service status](https://no-do.dev/en/status/)
 
 ## Who works with this
 
@@ -53,4 +53,4 @@ The code for TRACEZ, GRIMZ and DEEPWIRE is proprietary and lives in private repo
 
 ### Let's talk?
 
-**[→ no-do.dev](https://no-do.dev)** · [Open TRACEZ](https://tracez.no-do.dev) · [Open GRIMZ](https://grimz.no-do.dev) · [FAQ](https://no-do.dev/faq/) · [About us](https://no-do.dev/sobre-nosotros/)
+**[→ no-do.dev](https://no-do.dev)** · [Open TRACEZ](https://tracez.no-do.dev) · [Open GRIMZ](https://grimz.no-do.dev) · [FAQ](https://no-do.dev/en/faq/) · [About us](https://no-do.dev/en/about/)
