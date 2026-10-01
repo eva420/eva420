@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="eva420 — NO-DO: security and OSINT engineering. Malware reverse-engineering, OSINT/GEOINT, authorized operations. EU. TLP:CLEAR.">
+  <title>eva420 — NO-DO · security &amp; OSINT engineering</title>
+  <defs>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6F8FC"/>
+      <stop offset="1" stop-color="#AEB9C9"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0E14"/>
+      <stop offset="0.55" stop-color="#0C1119"/>
+      <stop offset="1" stop-color="#0A0E14"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8595AB" stop-opacity="0.85"/>
+      <stop offset="0.72" stop-color="#8595AB" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#8595AB" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="redglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF3B3B" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FF3B3B" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+    </filter>
+  </defs>
+
+  <!-- panel (self-contained dark: identical on GitHub light & dark themes) -->
+  <rect width="1200" height="300" rx="10" fill="#0A0E14"/>
+  <rect width="1200" height="300" rx="10" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="298" rx="9" fill="none" stroke="#8595AB" stroke-opacity="0.16"/>
+  <rect x="7" y="7" width="1186" height="286" rx="6" fill="none" stroke="#8595AB" stroke-opacity="0.07"/>
+
+  <!-- corner registration marks -->
+  <g stroke="#8595AB" stroke-opacity="0.5" stroke-width="1">
+    <path d="M19 26H33M26 19V33"/>
+    <path d="M1167 26H1181M1174 19V33"/>
+    <path d="M19 274H33M26 267V281"/>
+    <path d="M1167 274H1181M1174 267V281"/>
+  </g>
+
+  <!-- intelligence graph (neutral steel constellation) -->
+  <g stroke="#8595AB" stroke-opacity="0.22" stroke-width="1" fill="none">
+    <path d="M824 158 890 186 944 148M874 112 1000 106M944 148 1010 192 1062 158 1000 106M890 186 1010 192M944 148 1000 106M824 158 874 112"/>
+  </g>
+  <g fill="#8595AB" fill-opacity="0.45">
+    <circle cx="824" cy="158" r="2.6"/><circle cx="874" cy="112" r="2.6"/><circle cx="890" cy="186" r="2.6"/><circle cx="944" cy="148" r="2.6"/><circle cx="1000" cy="106" r="2.6"/><circle cx="1010" cy="192" r="2.6"/><circle cx="1062" cy="158" r="2.6"/>
+  </g>
+
+  <!-- active recon trace (the single cyan accent) -->
+  <path d="M824 158 874 112 944 148 1062 158 1098 126" fill="none" stroke="#22D3EE" stroke-opacity="0.9" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <g fill="#22D3EE">
+    <circle cx="824" cy="158" r="2.9"/><circle cx="874" cy="112" r="2.9"/><circle cx="944" cy="148" r="2.9"/><circle cx="1062" cy="158" r="2.9"/>
+  </g>
+
+  <!-- acquired target: reticle + red node (single red / GRIMZ red+cyan moment) -->
+  <circle cx="1098" cy="126" r="16" fill="url(#redglow)"/>
+  <g stroke="#22D3EE" stroke-opacity="0.75" stroke-width="1" fill="none">
+    <circle cx="1098" cy="126" r="13"/>
+    <path d="M1079 126H1092M1104 126H1117M1098 107V120M1098 132V145"/>
+  </g>
+  <g stroke="#8595AB" stroke-opacity="0.5" stroke-width="1" fill="none">
+    <path d="M1084 106H1078V112M1112 106H1118V112M1084 146H1078V140M1112 146H1118V140"/>
+  </g>
+  <circle cx="1098" cy="126" r="3.8" fill="#FF3B3B"/>
+
+  <!-- text: generic monospace stack renders on any viewer (no external font fetch) -->
+  <g font-family="'Consolas','SF Mono','SFMono-Regular',Menlo,'DejaVu Sans Mono','Liberation Mono',monospace">
+    <text x="66" y="92" font-size="14.5" letter-spacing="3.2" fill="#6B7A90">MALWARE RE  ·  OSINT / GEOINT  ·  AUTHORIZED OPS</text>
+    <text x="66" y="176" font-size="96" font-weight="700" letter-spacing="7" fill="url(#steel)">eva420</text>
+    <rect x="66" y="200" width="443" height="1.4" fill="url(#rule)"/>
+    <text x="66" y="232" font-size="19">
+      <tspan font-size="23" font-weight="700" letter-spacing="2" fill="#F5F3EE">NO-DO</tspan><tspan letter-spacing="1" fill="#8595AB">  ·  security &amp; OSINT engineering</tspan>
+    </text>
+    <text x="1148" y="276" text-anchor="end" font-size="12.5" letter-spacing="2.8" fill="#6B7A90">REF / EVA-420  ·  TLP:CLEAR  ·  REMOTE · EU</text>
+  </g>
+
+  <!-- film grain -->
+  <rect width="1200" height="300" rx="10" filter="url(#grain)"/>
+</svg>
