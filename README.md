@@ -41,7 +41,6 @@ A deliberately thin public surface, mapped to the work that proves each discipli
 | Malware RE & threat intelligence | **[salat-stealer-analysis](https://github.com/eva420/salat-stealer-analysis)** — Ghidra RE, payload decryption, live C2 discovery, published IOCs *(public)* |
 | OSINT / GEOINT | **[TRACEZ](https://tracez.no-do.dev)** — entity graphs, geolocation & timeline, live Earth data *(in production)* |
 | Authorized offensive security | **[GRIMZ](https://grimz.no-do.dev)** — scope-bound pentest tooling, live billing *(in production)* |
-| Recon → operation fusion | **[DEEPWIRE](https://no-do.dev/en/deepwire/)** — managed engagements, recon into authorized operation *(in production)* |
 | Edge infrastructure & applied crypto | Cloudflare Workers + D1; Ed25519 node-locked licensing & signed evidence — applied crypto shown publicly in the [salat payload decryption](https://github.com/eva420/salat-stealer-analysis) (ChaCha20-Poly1305) |
 
 ## `SEC/03 · In production`
@@ -52,7 +51,6 @@ Research turned into tooling — shipped, live, and (where it applies) monetized
 |---|---|---|
 | **[TRACEZ](https://tracez.no-do.dev)** | OSINT/GEOINT graph console: entities, relationships, geolocation and timeline, plus live Earth data (flights, earthquakes, weather, ISS, NASA imagery) and AI case auto-expansion — one investigation workspace on Cloudflare Workers + D1. | ![public beta](https://img.shields.io/badge/live-public%20beta-informational?style=flat-square&labelColor=0A0E14&color=D99A52) |
 | **[GRIMZ](https://grimz.no-do.dev)** | Authorized-pentest product: deny-by-default scope enforcement, node-locked licensing, enterprise engagements and controlled-intrusion training labs. | ![live, billing](https://img.shields.io/badge/live-billing-informational?style=flat-square&labelColor=0A0E14&color=22D3EE) |
-| **[DEEPWIRE](https://no-do.dev/en/deepwire/)** | Managed engagements that fuse recon (TRACEZ-class intelligence) into authorized operation (GRIMZ-class execution) as a single, accountable flow. | ![live, managed](https://img.shields.io/badge/live-managed-informational?style=flat-square&labelColor=0A0E14&color=FF5A36) |
 
 ## `SEC/04 · Rules of engagement`
 
