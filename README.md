@@ -49,7 +49,7 @@ Research turned into tooling — shipped, live, and (where it applies) monetized
 
 | Product | What it is | Status |
 |---|---|---|
-| **[TRACEZ](https://tracez.no-do.dev)** | OSINT/GEOINT graph console: entities, relationships, geolocation and timeline, plus live Earth data (flights, earthquakes, weather, ISS, NASA imagery) and AI case auto-expansion — one investigation workspace on Cloudflare Workers + D1. | ![public beta](https://img.shields.io/badge/live-public%20beta-informational?style=flat-square&labelColor=0A0E14&color=D99A52) |
+| **[TRACEZ](https://tracez.no-do.dev)** | OSINT/GEOINT graph console: entities, relationships, geolocation and timeline, plus live Earth data (flights, earthquakes, weather, ISS, NASA imagery) and AI case auto-expansion — one investigation workspace on Cloudflare Workers + D1. Mobile Lighthouse 99 · CLS 0. | ![public beta](https://img.shields.io/badge/live-public%20beta-informational?style=flat-square&labelColor=0A0E14&color=D99A52) |
 | **[GRIMZ](https://grimz.no-do.dev)** | Authorized-pentest product: deny-by-default scope enforcement, node-locked licensing, enterprise engagements and controlled-intrusion training labs. | ![live, billing](https://img.shields.io/badge/live-billing-informational?style=flat-square&labelColor=0A0E14&color=22D3EE) |
 
 ## `SEC/04 · Rules of engagement`
