@@ -1,6 +1,6 @@
 # Security Policy
 
-NO-DO builds security and OSINT tooling (TRACEZ, GRIMZ, DEEPWIRE) and publishes
+NO-DO builds security and OSINT tooling (TRACEZ and GRIMZ) and publishes
 independent threat research. If you find a vulnerability in a NO-DO product or an
 error in published research, please report it privately first.
 
