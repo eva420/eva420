@@ -12,11 +12,11 @@
 </div>
 
 <p align="center">
-  <img alt="Location: Remote, EU" src="https://img.shields.io/badge/Location-Remote%20%C2%B7%20EU-informational?style=flat-square&labelColor=0A0E14&color=161B22">
-  <img alt="Focus: Security and OSINT" src="https://img.shields.io/badge/Focus-Security%20%C2%B7%20OSINT-informational?style=flat-square&labelColor=0A0E14&color=161B22">
-  <img alt="Primary languages: TypeScript and Python" src="https://img.shields.io/badge/Writes-TypeScript%20%C2%B7%20Python-informational?style=flat-square&labelColor=0A0E14&color=161B22">
-  <a href="https://no-do.dev"><img alt="Live site: no-do.dev" src="https://img.shields.io/badge/Live-no--do.dev-informational?style=flat-square&labelColor=0A0E14&color=161B22&logo=cloudflare&logoColor=22D3EE"></a>
-  <a href="https://github.com/eva420/salat-stealer-analysis"><img alt="Public research at TLP:CLEAR" src="https://img.shields.io/badge/Research-TLP%3ACLEAR-informational?style=flat-square&labelColor=0A0E14&color=161B22&logoColor=22D3EE"></a>
+  <img alt="Location: Remote, EU" src="https://img.shields.io/badge/Location-Remote%20%C2%B7%20EU-informational?style=flat-square&labelColor=0A0E14&color=1F2630">
+  <img alt="Focus: Security and OSINT" src="https://img.shields.io/badge/Focus-Security%20%C2%B7%20OSINT-informational?style=flat-square&labelColor=0A0E14&color=1F2630">
+  <img alt="Primary languages: TypeScript and Python" src="https://img.shields.io/badge/Writes-TypeScript%20%C2%B7%20Python-informational?style=flat-square&labelColor=0A0E14&color=1F2630">
+  <a href="https://no-do.dev"><img alt="Live site: no-do.dev" src="https://img.shields.io/badge/Live-no--do.dev-informational?style=flat-square&labelColor=0A0E14&color=1F2630&logo=cloudflare&logoColor=22D3EE"></a>
+  <a href="https://github.com/eva420/salat-stealer-analysis"><img alt="Public research at TLP:CLEAR" src="https://img.shields.io/badge/Research-TLP%3ACLEAR-informational?style=flat-square&labelColor=0A0E14&color=1F2630"></a>
 </p>
 
 ## `whoami`
@@ -69,13 +69,13 @@ Coordinated disclosure & full policy: [`SECURITY.md`](./SECURITY.md) · [contact
 TypeScript (strict) end to end · Python for tooling and analysis · Go for reverse-engineering and binary internals · Cloudflare Workers + D1 at the edge · Ed25519 for node-locked licensing and signed evidence · Ghidra and `tshark` for reverse-engineering · a **local** LLM for analysis, so investigation data never leaves the box.
 
 <p align="center">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-161B22?style=flat-square&logo=typescript&logoColor=22D3EE">
-  <img alt="Python" src="https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=22D3EE">
-  <img alt="Go (reverse-engineering)" src="https://img.shields.io/badge/Go-RE-161B22?style=flat-square&logo=go&logoColor=22D3EE">
-  <img alt="Cloudflare Workers" src="https://img.shields.io/badge/Cloudflare%20Workers-161B22?style=flat-square&logo=cloudflareworkers&logoColor=22D3EE">
-  <img alt="Cloudflare D1" src="https://img.shields.io/badge/Cloudflare%20D1-161B22?style=flat-square&logo=cloudflare&logoColor=22D3EE">
-  <img alt="Ghidra reverse engineering" src="https://img.shields.io/badge/Ghidra-161B22?style=flat-square">
-  <img alt="Ed25519 signed evidence" src="https://img.shields.io/badge/Ed25519-161B22?style=flat-square">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1F2630?style=flat-square&logo=typescript&logoColor=22D3EE">
+  <img alt="Python" src="https://img.shields.io/badge/Python-1F2630?style=flat-square&logo=python&logoColor=22D3EE">
+  <img alt="Go (reverse-engineering)" src="https://img.shields.io/badge/Go-RE-1F2630?style=flat-square&logo=go&logoColor=22D3EE">
+  <img alt="Cloudflare Workers" src="https://img.shields.io/badge/Cloudflare%20Workers-1F2630?style=flat-square&logo=cloudflareworkers&logoColor=22D3EE">
+  <img alt="Cloudflare D1" src="https://img.shields.io/badge/Cloudflare%20D1-1F2630?style=flat-square&logo=cloudflare&logoColor=22D3EE">
+  <img alt="Ghidra reverse engineering" src="https://img.shields.io/badge/Ghidra-1F2630?style=flat-square">
+  <img alt="Ed25519 signed evidence" src="https://img.shields.io/badge/Ed25519-1F2630?style=flat-square">
 </p>
 
 ## `SEC/06 · Engage`
