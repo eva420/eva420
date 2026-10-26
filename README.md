@@ -1,4 +1,3 @@
-<!-- Banner: assets/banner.svg — single theme-invariant SVG committed under assets/. -->
 <p align="center">
   <a href="https://no-do.dev"><img src="assets/banner.svg" width="100%" alt="eva420 — NO-DO · security and OSINT engineering · Remote · EU"></a>
 </p>
@@ -22,19 +21,19 @@
 ## `whoami`
 
 > **`eva420`** — the engineering home of [NO-DO](https://no-do.dev), a founder-led security & OSINT studio.
-> One operator runs the whole chain: recon → authorized operation → infrastructure → signed evidence → edge deploy. Offensive and defensive, edge-native, authorization-first by construction.
+> One person covers the chain: recon, authorized operation, infrastructure, signed evidence, deploy on Cloudflare. Offensive and defensive work, always with written authorization.
 
 ---
 
 ## `SEC/01 · Public research`
 
-[**`salat-stealer-analysis`**](https://github.com/eva420/salat-stealer-analysis) is an independent, end-to-end reverse-engineering of an **active Go-based Malware-as-a-Service infostealer** (*Salat Stealer / WebRat*, sold by Russian-speaking actors). Starting from a trojanized "gamer tools" pack, I reversed the `garble`-obfuscated Go loader in **Ghidra (headless)**, extracted and decrypted its self-embedded payload — **ChaCha20-Poly1305 + zstd**, CBOR-chunked — to recover a 12.5 MB PE32 stealer, detonated it in an **isolated lab**, and pulled the live C2 straight off the **TLS ClientHello SNI** after the sample hid resolution behind DNS-over-HTTPS. A purely **passive urlscan.io pivot by IP** then expanded the 5 documented C2 domains to **12 domains plus a live admin panel** whose origin was exposed by an operator OPSEC failure. Attribution is kept **group-level and sanitized** — no victim data, no named individuals — and the write-up ships a full IOC table with a machine-readable [`iocs.csv`](https://github.com/eva420/salat-stealer-analysis/blob/main/iocs.csv). This is the "verify me in two clicks" anchor for everything below: all technique- and infrastructure-level, reproducible from the page itself.
+[**`salat-stealer-analysis`**](https://github.com/eva420/salat-stealer-analysis) is an independent, end-to-end reverse-engineering of an **active Go-based Malware-as-a-Service infostealer** (*Salat Stealer / WebRat*, sold by Russian-speaking actors). Starting from a trojanized "gamer tools" pack, I reversed the `garble`-obfuscated Go loader in **Ghidra (headless)**, extracted and decrypted its self-embedded payload — **ChaCha20-Poly1305 + zstd**, CBOR-chunked — to recover a 12.5 MB PE32 stealer, detonated it in an **isolated lab**, and pulled the live C2 straight off the **TLS ClientHello SNI** after the sample hid resolution behind DNS-over-HTTPS. A purely **passive urlscan.io pivot by IP** then expanded the 5 documented C2 domains to **12 domains plus a live admin panel** whose origin was exposed by an operator OPSEC failure. Attribution is kept **group-level and sanitized** — no victim data, no named individuals — and the write-up ships a full IOC table with a machine-readable [`iocs.csv`](https://github.com/eva420/salat-stealer-analysis/blob/main/iocs.csv).
 
 [![TLP:CLEAR](https://img.shields.io/badge/TLP-CLEAR-informational?style=flat-square&labelColor=0A0E14&color=DC2626)](https://github.com/eva420/salat-stealer-analysis) &nbsp; **Read the full write-up →** [`eva420/salat-stealer-analysis`](https://github.com/eva420/salat-stealer-analysis)
 
 ## `SEC/02 · Capabilities`
 
-A deliberately thin public surface, mapped to the work that proves each discipline. Most rows point at something checkable — a public repo or a live product — with no private code exposed.
+What I work on and where you can check it. The code of the products is private; each row points to a public repo or a live site.
 
 | Discipline | Where it's proven |
 |---|---|
@@ -45,16 +44,17 @@ A deliberately thin public surface, mapped to the work that proves each discipli
 
 ## `SEC/03 · In production`
 
-Research turned into tooling — shipped, live, and (where it applies) monetized. Each is verifiable from its own URL; none requires access to a private repo.
+Research turned into tooling. Each product has its own site, so you can check it without access to a private repo.
 
 | Product | What it is | Status |
 |---|---|---|
 | **[TRACEZ](https://tracez.no-do.dev)** | OSINT/GEOINT graph console: entities, relationships, geolocation and timeline, plus live Earth data (flights, earthquakes, weather, ISS, NASA imagery) and AI case auto-expansion, fed by 32 open sources, with continuous monitors and Ed25519-signed evidence anyone can verify without an account — one investigation workspace on Cloudflare Workers + D1. Mobile Lighthouse 99 · CLS 0. | ![public beta](https://img.shields.io/badge/live-public%20beta-informational?style=flat-square&labelColor=0A0E14&color=D99A52) |
 | **[GRIMZ](https://grimz.no-do.dev)** | Authorized-pentest product: deny-by-default scope enforcement, node-locked licensing, enterprise engagements and controlled-intrusion training labs. | ![live, billing](https://img.shields.io/badge/live-billing-informational?style=flat-square&labelColor=0A0E14&color=22D3EE) |
+| **[ATTEST](https://verify.no-do.dev)** | Signs a finished case as a dossier a third party can verify without an account: Ed25519 signature plus an RFC 3161 timestamp, with a public verifier. | ![live](https://img.shields.io/badge/live-online-informational?style=flat-square&labelColor=0A0E14&color=22D3EE) |
 
 ## `SEC/04 · Rules of engagement`
 
-Ethics here is an engineering property, not a disclaimer. The controls are the argument:
+How the work is kept inside its limits:
 
 - **Authorization-first.** Offensive capability is gated on written scope and rules of engagement — enforced in code. GRIMZ ships **deny-by-default scope**: out-of-scope targets are refused by construction, not by convention.
 - **Scope-bound by construction.** Licensing is **node-locked (Ed25519)** — tooling runs where it is authorized to run, and nowhere else.
@@ -80,17 +80,14 @@ TypeScript (strict) end to end · Python for tooling and analysis · Go for reve
 
 ## `SEC/06 · Engage`
 
-**Authorized security & OSINT engagements, research collaboration, or hiring** — one inbox, one site, no link tree.
+Authorized security and OSINT engagements, research collaboration or hiring:
 
 - **Email** — [contacto@no-do.dev](mailto:contacto@no-do.dev)
 - **Web** — [no-do.dev](https://no-do.dev)
-<!-- SOCIAL: once the accounts exist, add exactly two links here — LinkedIn (recruiter path) + one infosec presence (X or infosec.exchange). Keep to two, max. -->
 
 <sub>Open to collaboration and select security roles. · Abierto a colaboración y a proyectos seleccionados.</sub>
 
 ---
-
-<!-- STATS: intentionally none. At 0 stars / 0 followers, stat-card / streak / trophy / snake widgets advertise the weakness rather than hide it. Do not add them. -->
 
 <p align="center">
   <sub><code>+ &nbsp; eva420 · NO-DO · recon → operation → signed evidence · Remote · EU</code></sub>
