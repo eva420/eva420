@@ -38,7 +38,7 @@ What I work on and where you can check it. The code of the products is private; 
 | Discipline | Where it's proven |
 |---|---|
 | Malware RE & threat intelligence | **[salat-stealer-analysis](https://github.com/eva420/salat-stealer-analysis)** — Ghidra RE, payload decryption, live C2 discovery, published IOCs *(public)* |
-| OSINT / GEOINT | **[TRACEZ](https://tracez.no-do.dev)** — entity graphs, geolocation & timeline, live Earth data *(in production)* |
+| OSINT / GEOINT | **[TRACEZ](https://tracez.no-do.dev)** — entity graphs, aircraft & ship watch, satellite imagery, GNSS integrity, timestamped evidence *(in production)* |
 | Authorized offensive security | **[GRIMZ](https://grimz.no-do.dev)** — scope-bound pentest tooling, live billing *(in production)* |
 | Edge infrastructure & applied crypto | Cloudflare Workers + D1; Ed25519 node-locked licensing & signed evidence — applied crypto shown publicly in the [salat payload decryption](https://github.com/eva420/salat-stealer-analysis) (ChaCha20-Poly1305) |
 
@@ -48,7 +48,7 @@ Research turned into tooling. Each product has its own site, so you can check it
 
 | Product | What it is | Status |
 |---|---|---|
-| **[TRACEZ](https://tracez.no-do.dev)** | OSINT/GEOINT graph console: entities, relationships, geolocation and timeline, plus live Earth data (flights, earthquakes, weather, ISS, NASA imagery) and AI case auto-expansion, fed by 32 open sources, with continuous monitors and Ed25519-signed evidence anyone can verify without an account — one investigation workspace on Cloudflare Workers + D1. Mobile Lighthouse 99 · CLS 0. | ![public beta](https://img.shields.io/badge/live-public%20beta-informational?style=flat-square&labelColor=0A0E14&color=D99A52) |
+| **[TRACEZ](https://tracez.no-do.dev)** | OSINT/GEOINT workspace for investigations that cross records, territory and platforms: an entity graph with timeline and human-confirmed AI expansion over 36 open sources; a live map with 18 more (civil and military flights, AIS ships from a dedicated EU collector, wildfires, GNSS integrity, Sentinel-2/Landsat imagery); aircraft and ship watches with zone, loitering and AIS-gap alerts; plain-language questions to the map answered with cited, dated sources; web capture and Ed25519-signed reports with an RFC 3161 timestamp anyone can verify without an account; and an MCP server for AI agents. Cloudflare Workers + D1 + R2. Mobile Lighthouse 99 · CLS 0. | ![public beta](https://img.shields.io/badge/live-public%20beta-informational?style=flat-square&labelColor=0A0E14&color=D99A52) |
 | **[GRIMZ](https://grimz.no-do.dev)** | Authorized-pentest product: deny-by-default scope enforcement, node-locked licensing, enterprise engagements and controlled-intrusion training labs. | ![live, billing](https://img.shields.io/badge/live-billing-informational?style=flat-square&labelColor=0A0E14&color=22D3EE) |
 | **[ATTEST](https://verify.no-do.dev)** | Signs a finished case as a dossier a third party can verify without an account: Ed25519 signature plus an RFC 3161 timestamp, with a public verifier. | ![live](https://img.shields.io/badge/live-online-informational?style=flat-square&labelColor=0A0E14&color=22D3EE) |
 
